@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Independientes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+      <div class="container">
+       <img src="resource/independiente_logo.png" width="50" height="50" alt="">
+        <a class="navbar-brand" href="#" style="margin-left:15px;">Independientes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="movimiento.html">El movimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="postula.html">Postula</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+     
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+         <div class="Title container col-sm-12 col-md-6 h-100">
+         <div class="col-sm-12 col-lg-6 h-75 d-flex align-items-center"  >
+            <div class="container text-center col-12">
+             <h3>Queremos un Chile Desarrollado</h3>
+             <P>Buscamos transformar Chile en el país pionero en el Mundo</P>
+             </div>
+         </div>
+         </div>
+         
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url(resource/fernando-rodrigues-749860-unsplash.jpg)">
+            
+          </div>
+          
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('resource/juan-pablo-ahumada-797688-unsplash.jpg')">
+            
+          </div>
+        
+          <div class="carousel-item active" style="background-image: url('resource/roi-dimor-427577-unsplash.jpg')">
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content 
+    <section class="py-5">
+      <div class="container">
+        <h1>Full Slider by Start Bootstrap</h1>
+        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
+          <code>full-slider.css</code>
+          file.</p>
+      </div>
+    </section>-->
+
+ 
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+   <script>
+      $(window).scroll(function() {
+        if ($("#menu").offset().top > 56) {
+            $("#menu").removeClass("navbar-dark");
+            $("#menu").addClass("bg-light");
+            $("#menu").addClass("navbar-light");
+            
+        } else {
+             $("#menu").addClass("navbar-dark");
+            $("#menu").removeClass("bg-light");
+            $("menu").addClass("navbar-light")
+        }
+      });
+       
+</script>
+</html>
