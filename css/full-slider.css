@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+body{
+    background-color: #f7f8f9;
+    font-family: 'Karla', sans-serif;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item::before
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+  min-height: 300px;
+    top: 0px;
+    content: '';
+    opacity: 0.5;
+    z-index: 2;
+    background-color: black;
+    left: 0;
+}
+
+.Title 
+{
+    position: absolute;
+    z-index: 1;
+    color:#161616;
+   margin-left: 10%;
+}
+
+.menu-white
+{
+   background-color: green;
+    color:black;
+    
+}
+
+.Title h3
+{
+    text-align: left;
+    color:White;
+    font-weight: 100;
+    font-family: 'Open Sans','Karla', sans-serif;
+    font-size: 3.5em;
+}
+
+.Title p
+{
+     text-align: left;
+    color:White;
+    font-weight: 1;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3em;
+}
+.bg-inverse
+{
+    background-color: black;
+}
+
+
+
+#movimiento-image
+    {
+        padding: 0;
+    }
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.bg {
+  background-size: cover;
+  width: 100%;
+  height: auto; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.wall2
+{
+     background: url('../resource/roi-dimor-427577-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+  width: inherit;
+  height: 550px; /*same height as jumbotron */
+  margin-right: 0; 
+    padding: 0;
+  z-index: -1;
+}
+.wall3
+{
+     background: url('../resource/marcelo-vaz-415157-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+  width: inherit;
+  height: 550px; /*same height as jumbotron */
+  margin-right: 0; 
+    padding: 0;
+  z-index: -1;
+}
+
+
+.container h2
+{
+    color:white;
+    font-size: 2.5em;
+    z-index: 9;
+}
+.bg p 
+{
+    color: white;
+    font-size: 1.5em;
+}
+.container-fluid
+{
+    padding: 0;
+}
+
+.col-4
+{
+    padding:0;
+}
+
+
+.text-zone h3
+{
+ 
+   padding-top: 18%;
+}
+
+
+header .bg::before
+{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 0px;
+    content: '';
+    opacity: 0.8;
+    z-index: 2;
+    background-color: #874657;
+    left: 0;
+}
+
+#banner
+{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    top: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.bg-light
+{
+    border-bottom: solid 1px rgba(0,0,0,0.2);
+    
+}
+
+
+
+
+
+
+/*Aquí imagenes de banner*/
+
+
+.wall1
+{
+     background: url('../resource/chile2050.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.chile
+{
+     background: url('../resource/chile2050.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.ciencia
+{
+     background: url('../resource/ciencia.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.educacion
+{
+     background: url('../resource/educacion.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.salud
+{
+     background: url('../resource/salud.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.emprendimiento
+{
+     background: url('../resource/emprendimiento.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+
+.estado
+{
+     background: url('../resource/estado.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+
+.liderazgo
+{
+     background: url('../resource/liderazgo.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.energias
+{
+     background: url('../resource/medio_ambiente.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.ciudad
+{
+     background: url('../resource/ciudad.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+.independiente
+{
+     background: url('../resource/independientes.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 450px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+
+.bg-banner-two
+{
+     background: url('../resource/jens-johnsson-415859-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+    padding: 0;
+  z-index: -1;
+}
+
+
+
+@media only screen and (max-width: 991.98px) {
+    
+    .Title 
+{
+    width: 100%;
+    padding: none;
+    
+}
+    .Title h3
+{
+    text-align: left;
+    margin-top: 70%;
+    margin-left: -65px;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: 'Open Sans','Karla', sans-serif;
+}
+    #only-full-screen
+    {
+        display: none;
+    }
+    
+
+.Title p
+{
+     text-align: left;
+    color:White;
+    font-weight: 1;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3em;
+    margin-left: -65px;
+}
+    .text-zone h3
+{
+ 
+   padding-top: 7%;
+}
+.text-zone p
+    {
+        padding-bottom: 15%;
+    }
+    
+}
+
+@media only screen and (min-width: 991.98px) {
+ #only-mobile-screen
+    {
+        display: none;
+        
+    }
+    
+}
